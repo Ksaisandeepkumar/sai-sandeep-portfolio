@@ -39,8 +39,12 @@ See [Vercel's framework settings](https://vercel.com/docs/builds/configure-a-bui
 
 - The site retains the initial ~3–4 TB/day healthcare highlight; the dated contract experience and resume use the supplied 3+ TB/day wording.
 - Exact dates and metrics use the resume text supplied by the owner. 1Stop.ai is retained as additional experience without invented dates or responsibilities.
-- The selected PySpark streaming project comes from the supplied resume. Its link opens the owner's GitHub profile; no specific repository was supplied.
+- The selected PySpark streaming project comes from the supplied resume. Its code link opens the owner's `pyspark-streaming-dedup-late-data` repository.
 - The browser demo uses six synthetic records and actually validates duplicates, missing member IDs, and negative amounts. It is a small illustration, not a production ETL system.
 - The two expandable project blueprints are explicitly illustrative, not completed-project claims.
 - Resume text is selectable and uses a single-column layout; the website itself is not an ATS submission.
 - Fonts are loaded from Google Fonts, with local font fallbacks. No analytics, backend, or contact-form service is required. The contact action opens the visitor's email application.
+
+## Visual design
+
+The current design uses navy, blue, teal, and amber accents, a profile portrait, concise recruiter-facing copy, and decorative section emojis. It supports keyboard navigation, visible focus indicators, reduced motion, responsive menus, selectable resume text, and browser-local data validation.
